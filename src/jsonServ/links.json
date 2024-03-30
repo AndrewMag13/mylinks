@@ -1,0 +1,56 @@
+{
+  "links": [
+    {
+      "_id": "link_1",
+      "icon": {
+        "path": "icons/youtube.svg",
+        "width": 100
+      },
+      "gradient": {
+        "from": "#fd0000",
+        "to": "#fd1333"
+      },
+      "link": "https://www.youtube.com/channel/UC6rfDwgqhuStu6_ji3w6b3w",
+      "title": "Мой YouTube канал"
+    },
+    {
+      "_id": "link_2",
+      "icon": {
+        "path": "icons/telegram.svg",
+        "width": 100
+      },
+      "gradient": {
+        "from": "#52a2eb",
+        "to": "#10abed"
+      },
+      "link": "https://t.me/astrajah",
+      "title": "Мой Telegram"
+    },
+    {
+      "_id": "link_3",
+      "icon": {
+        "path": "icons/github.svg",
+        "width": 100
+      },
+      "gradient": {
+        "from": "#FFFFFF",
+        "to": "#DDFFFF"
+      },
+      "link": "https://github.com/AndrewMag13",
+      "title": "Мой GitHub"
+    },
+    {
+      "_id": "link_4",
+      "icon": {
+        "path": "icons/twitter.svg",
+        "width": 100
+      },
+      "gradient": {
+        "from": "#1a8cd8",
+        "to": "#1f9cfa"
+      },
+      "link": "https://twitter.com/BurdasovNail",
+      "title": "Мой Twitter / X"
+    }
+  ]
+}

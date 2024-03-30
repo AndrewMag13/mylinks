@@ -1,0 +1,55 @@
+@import "../../../../media";
+.me {
+    @apply mt-20 mb-6 text-center bg-zinc-900 relative mx-2 rounded-md;
+    @include media(laptop) {
+        @apply mt-16;
+    }
+    @include media(tablet) {
+        @apply mt-16 mb-4;
+    }
+    @include media(mobile) {
+        @apply mt-12 mb-3;
+    }
+    .imgWrapper {
+        @apply mb-6 justify-center flex z-0;
+        @include media(tablet) {
+            @apply mb-4;
+        }
+        @include media(mobile) {
+            @apply mb-2;
+        }
+        > span {
+            margin-top: -3rem !important;
+            @include media(tablet) {
+                width: 150px !important;
+                height: 150px !important;
+            }
+            @include media(mobile) {
+                width: 120px !important;
+                height: 120px !important;
+                margin-top: -2.5rem !important;
+            }
+        }
+        .image {
+            @apply rounded-md flex;
+        }
+    }
+    .heading {
+        @apply mb-5 text-3xl font-semibold text-white relative;
+        @include media(tablet) {
+            @apply text-2xl mb-4;
+        }
+        @include media(mobile) {
+            @apply mb-2 text-2xl;
+        }
+        > span {
+            @apply mr-2 align-middle;
+            @include media(mobile) {
+                @apply mr-1;
+            }
+        }
+        .check {
+            @apply bg-white rounded-lg inline-block;
+        }
+    }
+}
